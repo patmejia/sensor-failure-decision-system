@@ -1,0 +1,4 @@
+# Keep notebook merges deterministic in PR conflict UI.
+# For this project, sensor-failure-decision-system-v2.ipynb is treated as branch-owned output.
+# If main and feature branch both change it, prefer the feature branch version during merge.
+sensor-failure-decision-system-v2.ipynb merge=ours
